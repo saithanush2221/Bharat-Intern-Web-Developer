@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px; /* Decreased padding */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 1.5em; /* Decreased font size */
+    margin: 0;
+}
+
+p {
+    font-size: 1em; /* Decreased font size */
+    margin-top: 10px;
+}
+
+section {
+    margin: 20px; /* Decreased margin */
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px; /* Decreased margin */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px; /* Decreased margin */
+}
+
+.project {
+    background-color: #fff;
+    padding: 15px; /* Decreased padding */
+    margin-bottom: 15px; /* Decreased margin */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px; /* Decreased padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* New styles for certificates */
+#certificates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.certificate {
+    width: 30%;
+    margin-bottom: 15px; /* Decreased margin */
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
